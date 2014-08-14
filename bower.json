@@ -1,0 +1,19 @@
+{
+  "name": "angular-course",
+  "version": "0.0.0",
+  "authors": [
+    "Shir_Cohen <shir1234@hotmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.2.0",
+    "angular": "~1.2.22"
+  }
+}
