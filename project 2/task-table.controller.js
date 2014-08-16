@@ -19,8 +19,7 @@
                 if(confirm("Are you sure to delete this line?")){
                     var index = tasks.indexOf(task);
                     tasks.splice(index,1);
-                    var time = Date.now();
-                    scope.$emit('addLog', {msg: "task removed", time: time});
+                    scope.$emit('addLog', {msg: "task removed", time: Date.now()});
                 }
             };
 

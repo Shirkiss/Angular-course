@@ -2,7 +2,7 @@
 
     function LogController (scope) {
 
-        this.logs = [];
+        this.logs = [{time: Date.now(), msg: "Welcome!!"}];
 
         // catch addLog event
         scope.$on('addLogEvent', function (event, data) {
