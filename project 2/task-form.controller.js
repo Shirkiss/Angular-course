@@ -11,7 +11,6 @@
             scope.$emit('addLog', {msg: "new task added", time: time});
 
             this.task = {}
-
          };
 
         scope.$on('editTaskEvent', function (event, data) {
@@ -21,7 +20,6 @@
             };
         });
         }
-
 
         angular.module('app')
             .controller('TaskFormController', ['$scope', TaskFormController]);

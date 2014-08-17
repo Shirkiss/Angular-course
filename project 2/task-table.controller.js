@@ -3,7 +3,6 @@
     function TaskTableController (scope) {
         this.tasks = [];
 
-
         // catch event from parent
         scope.$on('addTaskEvent', function (event, data) {
             this.task = {
@@ -40,7 +39,6 @@
 
                 }
             }
-
         }.bind(this));
 
         this.hide = false;
