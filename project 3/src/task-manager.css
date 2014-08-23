@@ -1,0 +1,4 @@
+.taskdone {
+    background: lightgreen;
+    text-decoration: line-through;
+}
