@@ -1,7 +1,7 @@
 (function () {
 
     function TaskActionBarController(scope) {
-        // when a user want to hide/show the completed task
+        // when a user want to hide/show the completed tasks
         this.toggleCompletedTask = function () {
             scope.taskAppState.hideCompleted = !scope.taskAppState.hideCompleted;
         };
